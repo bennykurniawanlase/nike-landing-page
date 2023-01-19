@@ -1,0 +1,48 @@
+.main-fold {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	flex-grow: 1;
+}
+
+.main-fold-content {
+	max-width: 35%;
+	margin-left: 80px;
+	color: #444444;
+}
+
+.main-fold-title {
+	font-size: 60px;
+	font-weight: 700;
+	margin-bottom: 1rem;
+}
+
+.main-fold-description {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 24px;
+}
+
+.main-fold-price-button {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 1rem;
+}
+
+.main-fold-btn {
+	padding: 10px 20px;
+	background-color: black;
+	color: aliceblue;
+	cursor: pointer;
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.main-fold-btn:hover {
+	text-decoration: underline;
+}
+
+.main-fold-price {
+	font-weight: 600;
+	font-size: 20px;
+}
